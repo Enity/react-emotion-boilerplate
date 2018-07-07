@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    [
+      "emotion",
+      {
+        "autoLabel": true,
+        "labelFormat": "[local]"
+      }
+    ]
+  ],
+  "presets": [
+    "react",
+    [
+      "env",
+      {
+        "modules": false
+      }
+    ]
+  ]
+}

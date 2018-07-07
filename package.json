@@ -1,0 +1,41 @@
+{
+  "name": "react-emotion-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject",
+    "postbuild": "react-snap",
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "emotion": "^9.2.5",
+    "normalize.css": "^8.0.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-emotion": "^9.2.5",
+    "react-scripts": "1.1.4"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.4.8",
+    "@storybook/addon-backgrounds": "^3.4.8",
+    "@storybook/addon-centered": "^3.4.8",
+    "@storybook/addon-knobs": "^3.4.8",
+    "@storybook/addon-links": "^3.4.8",
+    "@storybook/addon-storysource": "^3.4.8",
+    "@storybook/addons": "^3.4.8",
+    "@storybook/react": "^3.4.8",
+    "babel-core": "^6.26.3",
+    "babel-plugin-emotion": "^9.2.5",
+    "babel-runtime": "^6.26.0",
+    "react-app-rewired": "^1.5.2",
+    "react-snap": "^1.15.0",
+    "webpack-bundle-analyzer": "^2.13.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
